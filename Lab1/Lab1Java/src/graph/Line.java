@@ -75,7 +75,7 @@ public class Line extends GraphObject {
 
     @Override
     public void draw() {
-        System.out.printf("Line [%d, %d] - [%d, %d] %s\n", getX1(), getY1(), getX2(), getY2(), getColor());
+        System.out.printf("Line ([%d, %d], [%d, %d]) %s\n", getX1(), getY1(), getX2(), getY2(), getColor());
     }
 
 
