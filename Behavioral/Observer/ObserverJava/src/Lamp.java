@@ -5,6 +5,6 @@ public class Lamp implements ElectricityListener
 	@Override
 	public void electricityOn(Object source)
 	{
-		System.out.println("Лампа зажглась");
+		System.out.println("Р›Р°РјРїР° Р·Р°Р¶РіР»Р°СЃСЊ");
 	}
 }

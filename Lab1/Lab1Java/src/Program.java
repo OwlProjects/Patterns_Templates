@@ -1,5 +1,6 @@
 import graph.AbstractGOFactory;
 import graph.ColorGOFactory;
+import graph.RealSceneBuilder;
 import graph.Scene;
 
 public class Program {
@@ -12,6 +13,8 @@ public class Program {
 		gof.createCircle().setColor("blue");
 		gof.createLine().setColor("purple");
 		
+		new RealSceneBuilder();
+
 		Scene.instance.draw();
 
 	}

@@ -11,26 +11,26 @@ public class HouseBuilder implements Builder {
 
 	@Override
 	public void perpare() {
-		out.println("Подготовка фундамента");
+		out.println("РџРѕРґРіРѕС‚РѕРІРєР° С„СѓРЅРґР°РјРµРЅС‚Р°");
 		house.setBase(true);
 	}
 
 	@Override
 	public void mainWork() {
-		out.println("Возведение дома");
+		out.println("Р’РѕР·РІРµРґРµРЅРёРµ РґРѕРјР°");
 		house.setBuilding(true);
 	}
 
 	@Override
 	public void addServiceLines() {
-		out.println("Подключение коммуникаций");
+		out.println("РџРѕРґРєР»СЋС‡РµРЅРёРµ РєРѕРјРјСѓРЅРёРєР°С†РёР№");
 		house.setServiceLines(true);
 
 	}
 
 	@Override
 	public void finsish() {
-		out.println("Отделка");
+		out.println("РћС‚РґРµР»РєР°");
 		house.setFinish(true);
 	}
 	
